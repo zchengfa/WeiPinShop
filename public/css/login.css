@@ -1,0 +1,227 @@
+body{
+    position: fixed;
+    width:100%;
+}
+#main
+{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+#all-con,#video-box,.the-bg-video,#main-con
+{
+    width: 100%;
+    height:100%;
+}
+#main-con
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*顶部导航*/
+.header-box
+{
+    position: fixed;
+    width:100%;
+    height:44px;
+    min-width: 1000px;
+    background-color: rgba(0,0,0,0.6);
+}
+.h-box-ul
+{
+    width:60%;
+    height:100%;
+}
+.h-box-li
+{
+    width: auto;
+    height:100%;
+    margin-left:10%;
+    line-height: 44px;
+}
+.h-b-link
+{
+    color: #fff;
+    font-size: 14px;
+}
+/*登录部分-box*/
+.login-box
+{
+    width:360px;
+    height:400px;
+    margin-left: 54%;
+    margin-top: 120px;
+    background-color: rgba(0,0,0,0.6);
+}
+.log-box-head
+{
+    width: 100%;
+    height:46px;
+    border-bottom: 1px #808080 solid;
+}
+.log-qr-btn,.log-account-btn
+{
+    width: 50%;
+    height:100%;
+}
+.qr-btn,.account-btn
+{
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 46px;
+}
+.qr-btn:hover,.account-btn:hover
+{
+    color: #f10180;
+}
+.log-con-qr
+{
+    width: 100%;
+    height:250px;
+}
+.image-box
+{
+    width: 164px;
+    height:164px;
+    margin:10% auto;
+    border:1px solid #808080;
+}
+img
+{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+}
+.login-tips
+{
+    width: 80%;
+    height:36px;
+    margin: 10px auto;
+    color: #fff;
+}
+.app-link
+{
+    color: #f40;
+}
+.app-link:hover
+{
+    color: #f10180;
+}
+.log-con-account
+{
+    display: none;
+    position: relative;
+    width: 100%;
+    height:280px;
+}
+.form-box
+{
+    width: 100%;
+    height: 280px;
+}
+form
+{
+    position: absolute;
+    top: 28px;
+    width: 100%;
+    height:260px;
+}
+.input-box
+{
+    width: 70%;
+    height:120px;
+    margin-left: 15%;
+}
+.input-box input
+{
+    width: 100%;
+    height:32%;
+    margin-top:3%;
+    text-align: left;
+    text-indent: 3%;
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid #808080;
+    color: #fff;
+    outline-color: #808080;
+}
+.account-check
+{
+    width: 70%;
+    height:20px;
+    margin-left: 15%;
+}
+.check-input-box
+{
+    width:78px;
+    height:13px;
+    color: #fff;
+}
+.forget-password
+{
+    display: block;
+    width: 80px;
+    height:13px;
+    color: #fff;
+}
+.submit
+{
+    width: 80%;
+    height:40px;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.submit input
+{
+    width: 100%;
+    height:100%;
+    color: #fff;
+    background-color: #808080;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+.log-box-foot
+{
+    width: 100%;
+    height:62px;
+}
+.log-f-ul
+{
+    width: 100%;
+    height:100%;
+    border-top: 1px solid #808080;
+}
+.log-f-li
+{
+    width: auto;
+    height:100%;
+    margin-left: 7%;
+    line-height: 60px;
+}
+.a-link
+{
+    color: #fff;
+}
+/*底部copyright*/
+.con-bottom
+{
+    width: 60%;
+    height:30px;
+    margin-left: 20%;
+    margin-top:6%;
+}
+.con-copyright
+{
+    width: 100%;
+    height:100%;
+    color: #fff;
+    font-size: 12px;
+    cursor: auto;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
